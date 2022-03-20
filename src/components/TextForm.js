@@ -13,6 +13,7 @@ export default function TextForm(props) {
     let newText = '';
     setText(newText)
   }
+  /*own function*/
   const handleReverseClick = ()=>{
     let sptvar = text.split("");
     let revvar = sptvar.reverse();
